@@ -1,0 +1,88 @@
+.SkillContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.SkillContainer:hover .SkillImage img {
+    transform: scale(1.1);
+}
+
+.SkillText {
+    padding: 2rem;
+}
+
+.SkillText h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.SkillText p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.SkillImage {
+    width: 50%;
+    height: 100%;
+    transition: all 0.5s ease-out;
+}
+
+.SkillImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes skillFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.SkillContainer:nth-child(odd) .SkillText {
+    order: 2;
+}
+
+.SkillContainer:nth-child(odd) .SkillImage {
+    order: 1;
+}
+
+@media (max-width: 768px) {
+    .SkillContainer {
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .SkillText {
+        text-align: center;
+    }
+
+    .SkillContainer:nth-child(odd) .SkillText {
+        order: 1;
+    }
+
+    .SkillContainer:nth-child(odd) .SkillImage {
+        order: 2;
+    }
+
+    .SkillImage {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+/* Animate skills container on page load */
+.SkillContainer {
+    animation: skillFadeIn 1s ease-in-out;
+}

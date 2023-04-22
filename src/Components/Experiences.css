@@ -1,0 +1,97 @@
+@keyframes scale-in {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .experience{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  div > h1 {
+    justify-content: center;
+  }
+  
+  div > div {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    animation: scale-in 0.5s ease-in-out forwards;
+  }
+  
+  div > div:nth-child(even) {
+    animation-delay: 0.25s;
+    animation-name: slide-in-right;
+  }
+  
+  div > div:nth-child(odd) {
+    animation-delay: 0.25s;
+    animation-name: slide-in-left;
+  }
+  
+  div > div > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    animation: slide-in-left 0.5s ease-in-out forwards;
+  }
+  
+  div > div:nth-child(even) > img {
+    animation-name: slide-in-right;
+  }
+  
+  div > div > h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    animation: slide-in-right 0.5s ease-in-out forwards;
+  }
+  
+  div > div:nth-child(even) > h2 {
+    animation-name: slide-in-left;
+  }
+  
+  div > div > p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+    animation: slide-in-left 0.5s ease-in-out forwards;
+  }
+  
+  div > div:nth-child(even) > p {
+    animation-name: slide-in-right;
+  }
+  

@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "Merch Website",
+        "url": "http:merchWebsite.html",
+        "slug": "fugit-voluptates-qui-voluptatibus-perspiciatis-quibusdam-ut",
+        "image": null,
+        "content": "Quod voluptates necessitatibus eos nobis consequatur. Quia et dignissimos cupiditate aspernatur. Laborum vel sit magnam accusantium minima saepe architecto.",
+        "type_id": 1,
+        "user_id": 1,
+        "created_at": "2023-04-17T16:48:23.000000Z",
+        "updated_at": "2023-04-17T16:48:23.000000Z",
+        "user": {
+            "id": 1,
+            "first": "Xzavier",
+            "last": "Kohler",
+            "email": "consuelo23@example.org",
+            "email_verified_at": "2023-04-17T16:48:23.000000Z",
+            "created_at": "2023-04-17T16:48:23.000000Z",
+            "updated_at": "2023-04-17T16:48:23.000000Z"
+        },
+        "type": {
+            "id": 1,
+            "title": "Optio possimus veritatis inventore sit qui illo.",
+            "created_at": "2023-04-17T16:48:23.000000Z",
+            "updated_at": "2023-04-17T16:48:23.000000Z"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Football Manager",
+        "url": "http:\/\/www.roob.com\/deleniti-fugit-eos-eos-rerum-et-ab-molestiae.html",
+        "slug": "animi-ipsum-dolorum-dignissimos-aperiam",
+        "image": null,
+        "content": "Recusandae molestiae quia voluptatem aut. Blanditiis recusandae est quia error eveniet error. Vitae aliquid aperiam voluptates pariatur. Quia dolor eveniet et eligendi corporis et veritatis.",
+        "type_id": 1,
+        "user_id": 1,
+        "created_at": "2023-04-17T16:48:23.000000Z",
+        "updated_at": "2023-04-17T16:48:23.000000Z",
+        "user": {
+            "id": 1,
+            "first": "Xzavier",
+            "last": "Kohler",
+            "email": "consuelo23@example.org",
+            "email_verified_at": "2023-04-17T16:48:23.000000Z",
+            "created_at": "2023-04-17T16:48:23.000000Z",
+            "updated_at": "2023-04-17T16:48:23.000000Z"
+        },
+        "type": {
+            "id": 1,
+            "title": "Optio possimus veritatis inventore sit qui illo.",
+            "created_at": "2023-04-17T16:48:23.000000Z",
+            "updated_at": "2023-04-17T16:48:23.000000Z"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Amazon",
+        "url": "http:\/\/www.homenick.com\/id-occaecati-itaque-ut-eligendi-nesciunt",
+        "slug": "itaque-omnis-perferendis-ipsa-vel-recusandae",
+        "image": null,
+        "content": "Vel ut et repudiandae a vel voluptatum. Autem quas quia dolores sed rerum ut voluptatem. Dolorem voluptas aut velit distinctio dolor praesentium.",
+        "type_id": 1,
+        "user_id": 1,
+        "created_at": "2023-04-17T16:48:23.000000Z",
+        "updated_at": "2023-04-17T16:48:23.000000Z",
+        "user": {
+            "id": 1,
+            "first": "Xzavier",
+            "last": "Kohler",
+            "email": "consuelo23@example.org",
+            "email_verified_at": "2023-04-17T16:48:23.000000Z",
+            "created_at": "2023-04-17T16:48:23.000000Z",
+            "updated_at": "2023-04-17T16:48:23.000000Z"
+        },
+        "type": {
+            "id": 1,
+            "title": "Optio possimus veritatis inventore sit qui illo.",
+            "created_at": "2023-04-17T16:48:23.000000Z",
+            "updated_at": "2023-04-17T16:48:23.000000Z"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Word Clicker",
+        "url": "http:\/\/www.ernser.com\/iure-molestias-dolor-et-ipsum-earum-iure-illum",
+        "slug": "molestiae-consectetur-eius-eum-delectus-reprehenderit-aperiam-quos",
+        "image": null,
+        "content": "Mollitia consequatur impedit voluptatum eum. Ut molestiae omnis doloribus eum veniam voluptatibus accusantium alias. Cupiditate accusamus vero qui. Quia soluta qui iste similique.",
+        "type_id": 1,
+        "user_id": 1,
+        "created_at": "2023-04-17T16:48:23.000000Z",
+        "updated_at": "2023-04-17T16:48:23.000000Z",
+        "user": {
+            "id": 1,
+            "first": "Xzavier",
+            "last": "Kohler",
+            "email": "consuelo23@example.org",
+            "email_verified_at": "2023-04-17T16:48:23.000000Z",
+            "created_at": "2023-04-17T16:48:23.000000Z",
+            "updated_at": "2023-04-17T16:48:23.000000Z"
+        },
+        "type": {
+            "id": 1,
+            "title": "Optio possimus veritatis inventore sit qui illo.",
+            "created_at": "2023-04-17T16:48:23.000000Z",
+            "updated_at": "2023-04-17T16:48:23.000000Z"
+        }
+    }
+]
